@@ -6,6 +6,7 @@ import moment from 'moment/moment';
 import { Button ,Container} from 'react-bootstrap';
 import Marquee from "react-fast-marquee";
 import { Navbar,Nav,NavDropdown} from 'react-bootstrap';
+import profile from'../../assets/picture/user.png'
 
 const Header = () => {
     return (
@@ -20,19 +21,12 @@ const Header = () => {
 
 
 
-<div className='d-flex' >       <Button variant="danger">Danger</Button> <Marquee className='text-danger' speed={50} >
+<div className='d-flex' ><Button variant="danger">Danger</Button> <Marquee className='text-danger' speed={50} >
   I can be a React component, multiple React components, or just some text.
 </Marquee>
   </div>
-
- 
- 
-     
- 
-
-
-  <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
-      <Container>
+<Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+      <Container className='head'>
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -45,21 +39,14 @@ const Header = () => {
 
           </Nav>
           <Nav>
-            <Nav.Link href="#deets"> Profile</Nav.Link>
+            <Nav.Link href="#deets"> <img className='profile' src={profile} alt="" />  </Nav.Link>
             <Nav.Link eventKey={2} href="#memes">
-            <Button variant="secondary">Login</Button>
+            <Button className='secondary1'  >Login</Button>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
-
-
-
-
-
-
-
         </Container>
     );
 };

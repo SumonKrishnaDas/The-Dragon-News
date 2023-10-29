@@ -5,6 +5,7 @@ import { Container,Row,Col} from 'react-bootstrap';
 import Left from '../Pages/LeftSide/Left';
 import RightSide from '../Pages/RightSide/RightSide';
 import MainSide from '../Pages/MainSide/MainSide';
+import'./main.css'
 
 const Main = () => {
     return (
@@ -12,7 +13,7 @@ const Main = () => {
 
 <Header>  </Header>
 
-<Container>
+<Container className='maindata'>
       <Row>
         <Col lg={3} > <Left>  </Left>   </Col>
        

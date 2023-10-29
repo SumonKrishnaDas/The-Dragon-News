@@ -1,0 +1,15 @@
+.nationalNews{
+
+    width: 267px;
+height: 64px;
+flex-shrink: 0;
+border-radius: 5px;
+border: 1px solid var(--Dark-06, #E7E7E7);
+background: var(--Dark-06, #E7E7E7);
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 15px;
+
+
+}

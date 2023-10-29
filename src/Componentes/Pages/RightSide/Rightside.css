@@ -1,0 +1,60 @@
+.background{
+    background-image: url('../../../assets/picture/bg.png');
+    width: 267px;
+    height: 509px;
+    flex-shrink: 0;
+    padding: 50px;
+    
+  
+}
+
+.header-4{
+
+    color: #FFF;
+
+    text-align: center;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px; /* 150% */
+    text-align: center;
+
+}
+.para-4{
+
+    color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+text-align: center;
+
+}
+
+.button-4{
+
+    width: 150px;
+    height: 64px;
+    flex-shrink: 0;
+    background: #D72050;
+    color: #FFF;
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+display: block;
+margin: 0 auto;
+
+
+
+}
+
+.find-us{
+    margin-top: 30px;
+
+
+}
