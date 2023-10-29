@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import'./Left.css'
+import News from '../New/News';
 
 const Left = () => {
 
@@ -28,7 +29,9 @@ fetch('http://localhost:5000/catagories')
   catagories.map( catagory => <p key={catagory.id}><Link to={`/category/${catagory.id}`} className='text-decoration-none  text-black' > {catagory.name} </Link> </p>)
 }
 
-            
+
+
+            <News> </News>
         </div>
     );
 };
