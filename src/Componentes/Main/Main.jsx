@@ -6,6 +6,7 @@ import Left from '../Pages/LeftSide/Left';
 import RightSide from '../Pages/RightSide/RightSide';
 import MainSide from '../Pages/MainSide/MainSide';
 import'./main.css'
+import { Outlet } from 'react-router-dom';
 
 const Main = () => {
     return (
@@ -17,7 +18,8 @@ const Main = () => {
       <Row>
         <Col lg={3} > <Left>  </Left>   </Col>
        
-   <Col lg={6}><MainSide> </MainSide></Col>
+   <Col lg={6}> <Outlet> </Outlet>   </Col>
+
         <Col lg={3}> <RightSide> </RightSide></Col>
       </Row>
   
