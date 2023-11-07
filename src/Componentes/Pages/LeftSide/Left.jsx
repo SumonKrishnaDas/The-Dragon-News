@@ -29,7 +29,7 @@ fetch('http://localhost:5000/catagories')
   
   {
   
-  catagories.map( catagory => <p  key={catagory.id}><Link to={`/category/${catagory.id}`} className='text-decoration-none  text-black' > {catagory.name} </Link> </p>)
+  catagories.map( catagory => <p  key={catagory.id}><Link to={`/catagory/${catagory.id}`} className='text-decoration-none  text-black' > {catagory.name} </Link> </p>)
   }
   </div>
 </div>

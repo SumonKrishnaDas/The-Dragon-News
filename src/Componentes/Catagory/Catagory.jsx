@@ -6,11 +6,18 @@ const Catagory = () => {
 
     const{id}=useParams();
 
+    console.log("hare krishna",id)
+
     const categoryNews= useLoaderData();
     console.log(categoryNews)
     return (
         <div>
-            <h3>This category news: {categoryNews.length}</h3>
+          {id  &&
+
+
+
+<h3>This category news: {categoryNews.length}</h3>
+          }
 
             {
 
